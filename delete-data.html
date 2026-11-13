@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="How Fluxify users can request deletion of data associated with their app installation.">
+  <title>Request Data Deletion | Fluxify</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080b12; --surface: #101722; --border: #202c3d;
+      --text: #e8effa; --muted: #9aa8bb; --blue: #62a5ff; --cyan: #63e0e6;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.8; }
+    body::before {
+      content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background-image: linear-gradient(rgba(98,165,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(98,165,255,.025) 1px, transparent 1px);
+      background-size: 45px 45px;
+    }
+    nav { max-width: 950px; margin: auto; padding: 25px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: 'DM Mono', monospace; color: var(--blue); font-size: 14px; }
+    .nav-label { font-family: 'DM Mono', monospace; color: var(--muted); font-size: 11px; }
+    .container { max-width: 850px; margin: auto; padding: 75px 25px; }
+    .eyebrow { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--cyan); letter-spacing: 1px; }
+    h1 { font-size: clamp(36px, 6vw, 55px); line-height: 1.2; letter-spacing: -2px; margin: 15px 0; }
+    .subtitle { color: var(--muted); font-size: 15px; }
+    .meta { margin: 30px 0; padding: 18px 20px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface); color: var(--muted); font-size: 13px; }
+    h2 { font-size: 21px; margin-top: 45px; margin-bottom: 12px; letter-spacing: -.4px; }
+    p, li { color: var(--muted); font-size: 14px; }
+    ul, ol { padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight { border-left: 3px solid var(--blue); padding: 15px 20px; margin: 22px 0; background: rgba(98,165,255,.055); border-radius: 0 8px 8px 0; }
+    .button { display: inline-block; margin-top: 8px; padding: 11px 16px; border: 1px solid rgba(98,165,255,.45); border-radius: 7px; background: rgba(98,165,255,.10); font-size: 14px; font-weight: 600; }
+    footer { max-width: 850px; margin: auto; padding: 25px; border-top: 1px solid var(--border); text-align: center; font-family: 'DM Mono', monospace; color: #718096; font-size: 11px; }
+    @media(max-width: 600px) { .container { padding: 55px 22px; } nav { padding: 20px; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="./index.html" aria-label="Fluxify developer website">&lt;developer /&gt;</a>
+    <div class="nav-label">PRIVACY &amp; SECURITY</div>
+  </nav>
+
+  <main class="container">
+    <div class="eyebrow">// DATA RIGHTS</div>
+    <h1>Request Data Deletion</h1>
+    <p class="subtitle">This page explains how to request deletion of data associated with your use of Fluxify, the Android customization application.</p>
+
+    <div class="meta">
+      Application: Fluxify<br>
+      Last Updated: November 13, 2026
+    </div>
+
+    <h2>1. How to submit a request</h2>
+    <p>To request deletion, email the Fluxify developer using the address below. Use the subject line <strong>Fluxify – Data Deletion Request</strong> and include a short description of your request.</p>
+    <div class="highlight">
+      <p><strong>Deletion request email</strong><br>
+      <a href="mailto:support.fluxify@atomicmail.io?subject=Fluxify%20%E2%80%93%20Data%20Deletion%20Request">support.fluxify@atomicmail.io</a></p>
+      <a class="button" href="mailto:support.fluxify@atomicmail.io?subject=Fluxify%20%E2%80%93%20Data%20Deletion%20Request">Email a deletion request</a>
+    </div>
+    <p>If available, include the Fluxify installation identifier shown or provided by the app, and any relevant purchase or support reference. Do not email passwords, payment-card numbers, or other unnecessary sensitive information. We may ask for limited information reasonably needed to verify that the request relates to your installation.</p>
+
+    <h2>2. What data can be covered</h2>
+    <p>Depending on the app version and features used, Fluxify's backend may process limited installation-linked information to verify purchases, maintain subscription or lifetime entitlements, prevent fraud, and validate rewarded-ad claims. A deletion request may cover eligible records such as:</p>
+    <ul>
+      <li>App installation identifiers or pseudonymous device-linked identifiers held by the Fluxify backend.</li>
+      <li>Entitlement status and associated records stored for purchase verification and access management.</li>
+      <li>Reward-claim or verification records associated with the installation, where deletion is permitted and those records are no longer needed.</li>
+      <li>Support correspondence you send to us, subject to applicable retention requirements.</li>
+    </ul>
+    <p>Fluxify does not require users to create an account. This process is for data associated with an app installation; it is not an account-closure process.</p>
+
+    <h2>3. What may remain after a request</h2>
+    <p>Some records may need to be retained for a limited period where reasonably necessary for legal compliance, accounting, purchase or refund disputes, security, fraud prevention, or enforcement of applicable terms. For example, certain transaction-verification or abuse-prevention records may not be deleted immediately where retaining them is necessary for one of these purposes.</p>
+    <p>Information retained for these reasons will be restricted to the relevant purpose and kept only for the applicable retention period. Data held independently by Google Play, Google AdMob, or other third-party providers is governed by those providers' own privacy and retention practices; you may need to contact the relevant provider to exercise rights over data they control.</p>
+
+    <h2>4. Processing and confirmation</h2>
+    <p>We will review a request, verify it where reasonably necessary, and take action on eligible data within a reasonable period. We will reply to the email address used for the request if we need clarification or to explain the outcome. If some information cannot be deleted, we will explain the applicable reason where appropriate.</p>
+
+    <h2>5. Local app data</h2>
+    <p>Preferences and other information stored only on your device can generally be removed by clearing Fluxify's app storage in Android settings or uninstalling the app. Uninstalling the app does not by itself submit a request to delete server-side entitlement or verification records.</p>
+
+    <h2>6. Related information</h2>
+    <p>For details about Fluxify's information practices, third-party services, and privacy choices, read the <a href="./privacy-policy.html">Fluxify Privacy Policy</a>.</p>
+
+    <h2>7. Contact</h2>
+    <p>For questions about a deletion request, contact <a href="mailto:support.fluxify@atomicmail.io">support.fluxify@atomicmail.io</a>.</p>
+  </main>
+
+  <footer>© 2026 · Independent Developer · Privacy Documentation</footer>
+</body>
+</html>
